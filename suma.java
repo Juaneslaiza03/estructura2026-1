@@ -4,12 +4,12 @@ public class suma {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n1 = 0, n2 = 0, n3 = 0;
-        System.out.println("ingrese n1:");
+        System.out.println("ingrese n1 que sea:");
         n1 = sc.nextInt();
         System.out.println("ingrese n2");
         n2 = sc.nextInt();
         n3 = n1 + n2;
-        System.out.println("el total es:" + n3);
+        System.out.println("el total de la suma es :" + n3);
 
     }
 }
